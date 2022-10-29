@@ -1,2 +1,2 @@
-# curso_orange_tech
+# Curso Orange Tech +
 Repositório para o primeiro projeto do Curso Orange Tech +
