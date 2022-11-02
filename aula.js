@@ -346,19 +346,19 @@ const pessoaY = new Pessoa('Pessoa Y', 10);
 compararPessoas(pessoaX, pessoaY);
 */
 
-class Carro{
+class Carro {
 	marca;
 	cor;
 	gastoMedio;
 
-	constructor(marca, cor, gastoMedio){
+	constructor(marca, cor, gastoMedio) {
 		this.marca = marca;
 		this.cor = cor;
-		this.gastoMedio = 1/gastoMedio;
+		this.gastoMedio = 1 / gastoMedio;
 	}
 
-	calcularGasto(km, preco){
-		return valor = km*this.gastoMedio*preco; 
+	calcularGasto(km, preco) {
+		return valor = km * this.gastoMedio * preco;
 		console.log(`O valor gasto foi de R$ ${valor.toFixed(2)}`);
 	}
 }
