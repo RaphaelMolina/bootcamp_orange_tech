@@ -198,7 +198,7 @@ main();
 
 //Main
 (function (){
-	console.log('Função imediatemente Invocada.')
+	console.log('Função imediatamente Invocada.')
 })
 ();
 */
@@ -345,7 +345,7 @@ const pessoaY = new Pessoa('Pessoa Y', 10);
 
 compararPessoas(pessoaX, pessoaY);
 */
-
+/*
 class Carro {
 	marca;
 	cor;
@@ -358,11 +358,125 @@ class Carro {
 	}
 
 	calcularGasto(km, preco) {
-		return valor = km * this.gastoMedio * preco;
+		const valor = km * this.gastoMedio * preco;
 		console.log(`O valor gasto foi de R$ ${valor.toFixed(2)}`);
+		return valor;
 	}
 }
 
 const carro1 = new Carro('Fusca', 'Vermelho', 10);
 carro1.calcularGasto(100, 5);
 console.log(carro1);
+*/
+/*
+class Pessoa {
+	nome;
+	peso;
+	altura;
+
+	constructor(nome, peso, altura) {
+		this.nome = nome;
+		this.peso = peso;
+		this.altura = altura;
+	}
+	imc() {
+		return this.peso / Math.pow(this.altura, 2);
+	}
+	classificarImc() {
+		const imc = this.imc();
+		if (imc < 18.5) {
+			return 'Abaixo do peso';
+		} else if (imc >= 18.5 && imc <= 25) {
+			return 'Peso normal';
+		} else if (imc > 25 && imc <= 30) {
+			return 'Acima do peso';
+		} else if (imc > 30 && imc <= 40) {
+			return 'Obeso';
+		} else {
+			return 'Obesidade grave';
+		}
+	}
+}
+
+const jose = new Pessoa('José', 70, 1.75);
+console.log(jose);
+console.log(jose.imc());
+console.log(jose.classificarImc());
+*/
+//Lista:
+/*
+const alunos = ['João', 'José', 'Pedro'];
+
+console.log(alunos);
+console.log(alunos[2]);
+alunos.push('Maria');
+console.log(alunos);
+alunos[4] = 'Paulo';
+console.log(alunos);
+alunos[3] = 'Marcos';
+alunos.push(55);
+console.log(alunos);
+console.log(alunos.pop());
+console.log(alunos);
+console.log(alunos.shift());
+console.log(alunos);
+*/
+/*
+const notas = [];
+
+notas.push(5);
+notas.push(7);
+notas.push(8);
+notas.push(2);
+notas.push(5);
+notas.push(8);
+
+console.log(notas.length);
+let soma = 0;
+for (let i = 0; i < notas.length; i++) {
+	const nota = notas[i];
+	soma += nota;
+}
+
+const media = soma / notas.length
+console.log(soma);
+console.log(media);
+*/
+
+/*
+const nome = 'Raphael Molina';
+//console.log(nome.length);
+for (let i = 0; i < nome.length; i++) {
+	const letra = nome[i];
+	console.log(letra);	
+}
+*/
+/*
+const numero = 2;
+for (let i = 1; i <= 10; i++) {
+	console.log(`${numero} X ${i} = ${i*numero}`);
+}
+*/
+/*
+const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < lista.length; i++) {
+	if (lista[i] % 2 == 0) {
+		console.log('Par: ' + lista[i]);
+	} else {
+		console.log('Ímpar: ' + lista[i]);
+	}
+}
+*/
+
+function gets() {
+	return 10;
+}
+
+function print(text) {
+	console.log(text);
+}
+
+module.exports = {
+	gets,
+    print
+}; 
