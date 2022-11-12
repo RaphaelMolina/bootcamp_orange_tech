@@ -467,16 +467,33 @@ for (let i = 0; i < lista.length; i++) {
 	}
 }
 */
+// const entradas = [5, 50, 10, 98, 23, 99, 1, 7, 11, 27, 100, 45];
+// let i =0;
+// function gets() {
+// 	const valor = entradas[i];
+// 	i++;
+//     return valor;
+// }
 
-function gets() {
-	return 10;
+// function print(text) {
+// 	console.log(text);
+// }
+
+// module.exports = {
+// 	gets,
+//     print
+// }; 
+
+
+import React from 'react';
+
+export default function Aula(){
+	return (
+		<div>
+			<h1>
+				<p>Eu sou o Raphael</p>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQUsHHg5UKzOth5DMjqyRgaAPHRnOvr39bOw&usqp=CAU"/>
+			</h1>
+		</div>
+	)
 }
-
-function print(text) {
-	console.log(text);
-}
-
-module.exports = {
-	gets,
-    print
-}; 
