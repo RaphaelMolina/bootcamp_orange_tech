@@ -6,6 +6,7 @@
 
 body {
     background-color: #F6F8FC;
+    
 }
 
 .content {
@@ -13,6 +14,10 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #FFF;
+    background-image: url(/assets/img/bola.png);
+    background-size: 6.7rem;
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 @media screen and (min-width: 992px) {

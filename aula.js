@@ -485,15 +485,74 @@ for (let i = 0; i < lista.length; i++) {
 // }; 
 
 
-import React from 'react';
+// import React from 'react';
 
-export default function Aula(){
-	return (
-		<div>
-			<h1>
-				<p>Eu sou o Raphael</p>
-				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQUsHHg5UKzOth5DMjqyRgaAPHRnOvr39bOw&usqp=CAU"/>
-			</h1>
-		</div>
-	)
-}
+// export default function Aula(){
+// 	return (
+// 		<div>
+// 			<h1>
+// 				<p>Eu sou o Raphael</p>
+// 				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQUsHHg5UKzOth5DMjqyRgaAPHRnOvr39bOw&usqp=CAU"/>
+// 			</h1>
+// 		</div>
+// 	)
+// }
+
+// Desafio 1:
+// var a = 5;
+// var n = 20;
+
+// let t = 0;
+// for (i = 0; i <= n; i++) {
+//   if ( i % a == 0) {
+//     t += i;   
+//   }  
+// }
+
+// Desafio 2:
+
+// let resultado = 4;
+
+// if ( resultado % 3 == 0 && resultado % 5 == 0) {
+// 	resultado = 'FizzBuzz';
+// } else if ( resultado % 3 == 0) {
+// 	resultado = 'Fizz';
+// } else if ( resultado % 5 == 0) {
+// 	resultado = 'Buzz';
+// }  
+
+// Desafio 3:
+// n = 15;
+// function somatorio(n){
+// 	if (n >= 0) {
+// 		return somatorio(n - 1) + n; 
+// 	}
+// 	return 0;
+// }
+// console.log(somatorio(n));
+
+// Desafio 4:
+// if (a == b ) {
+// 	print('Sao iguais!');
+// } else {
+// 	print('Nao sao iguais!');
+// }
+
+// Desafio 5:
+
+// let elementos = [64, 137, -16, 43, 67, 81, -90, 212, 10, 75];
+
+// let valor = 75;
+// let resultado;
+// for (let i = 0; i < elementos.length; i++) {
+// 	if (valor == elementos[i]) {
+// 		// resultado = console.log('Achei '+ valor + ' na posicao ' + i);
+// 		resultado = 'Achei '+ valor + ' na posicao ' + i;
+// 		break;
+// 	 } else {
+// 		// console.log('Numero '+ valor + ' nao encontrado!');
+// 		resultado = 'Numero '+ valor + ' nao encontrado!';
+// 	}
+// }
+
+// console.log(resultado);
