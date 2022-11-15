@@ -4,4 +4,4 @@
 ### Este é apenas um repositório para consolidar os conhecimentos adquiridos no Bootcamp.
 
 O Orange tech + é um projeto para aprender do zero desenvolvimento front-end e back-end e tem o propósito de preparar para as melhores 
-vagas do mercado de tecnologia. Abordando desde o princípio as tecnologias JavaScript, HTML, CSS, Typescript e React. 
+vagas do mercado de tecnologia. Abordando desde o princípio as tecnologias JavaScript, HTML, CSS, Typescript, React  e consumo de API RestFull. 
