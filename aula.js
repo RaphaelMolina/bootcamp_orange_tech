@@ -556,4 +556,134 @@ for (let i = 0; i < lista.length; i++) {
 // }
 
 // console.log(resultado);
+// let n = 10;
+// for (let i = 0; i < n; i++) {
+// 	let number = n - i;
+// 	console.log(number);
+	
+// }
 
+// let r = Math.round(10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1);
+// console.log(r);
+
+
+// let n = 23; 
+// let lista = [];
+// let r = 0;
+
+// while (n >= 0) {
+// 	lista[n] = n;
+// 	n--;
+// }
+// lista.shift();
+// lista.reverse();
+
+// if (lista.length >= 4) {
+//  	r = Math.floor((lista[0] * lista[1]) / lista[2]);
+// 	r = r + lista[3];
+//  	lista.splice(0, 4);
+	
+// 	while (lista.length >= 4) {
+//  	r = r - Math.floor((lista[0] * lista[1]) / lista[2]);
+//  	r = r + lista[3];
+//  	lista.splice(0, 4);
+//  	}
+// } 
+// if (lista.length == 3) {
+// 	r = Math.abs(r - Math.floor((lista[0] * lista[1]) / lista[2]));
+//  	lista.splice(0, 3);
+// } 
+// if (lista.length == 2) {
+//  	r = Math.abs(r - Math.floor(lista[0] * lista[1]));
+//  	lista.splice(0, 2);
+// } 
+// if (lista.length == 1) {
+// 	r = Math.abs(r - Math.floor(lista[0]));
+//  	lista.splice(0, 1);
+// }
+// console.log(r);
+
+// let resultado = 'radar';
+
+// function checaPalindromo(entrada){
+//   var novaString = ""
+//   for(let i = entrada.length - 1; i >= 0; i--){
+// 	novaString = novaString + entrada[i]
+//   }
+//   if (novaString === entrada){
+//   	return 'TRUE'
+//   } else {
+//     return 'FALSE'
+//   }
+// }
+// console.log(checaPalindromo(resultado));
+
+// let n = 13; 
+// let r = 0;
+
+// function quadradado(n){
+//     for ( let i = 1; i <= n; i++ ) {
+//       if ( Math.sqrt(i) === Math.floor( Math.sqrt(i) ) ) {
+//         r += 1;
+//       }
+//     }
+//     return r;
+// }
+
+// console.log(quadradado(n));
+ 
+// let n = 13; 
+// let r = n;
+// let count = 0;
+
+// const dp = new Array(n + 1).fill('A'); 
+// for (let i = 1; i < dp.length; i++) {
+// 	let multi = i * i;
+// 	if (multi <= n) {
+// 		dp[i] = multi;
+//   	} else {
+//     	break;
+//   	}
+// }
+// let total = dp.filter(item => item !== 'A');
+// for (let i = total.length - 1; i >= 0; i--) {
+// 	while (r > 0) {
+// 		if(r > total[i]){
+// 			r -= total[i];
+// 			count ++;
+// 		} else {
+// 			i --;
+// 		}
+// 		if(i < 0){
+// 			break;
+// 		} 
+// 	}
+// }               
+// console.log(count);
+ 
+// let arrVazio = [];
+// arrVazio = arr;
+
+// arrVazio.sort(function(a,b) {
+// 	if(a%2 == 0) {
+// 		console.log(a, 'Par');
+// 		if(b%2 == 0){
+// 			console.log(b, 'Par');
+// 		}
+// 	}
+// });
+
+// let arr = gets().split(''); 
+// let arrVazio = []; 
+
+let arr = [1,0];
+let par = [];
+let impar = [];
+arr.map(item=>{
+	if(item%2===0) par.push(item)
+  	else impar.push(item)
+});
+par = par.reverse();
+let list = par.concat(impar);
+
+console.log(list);
